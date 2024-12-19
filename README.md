@@ -2,8 +2,24 @@
 Looped Transformers as SAT Solvers
 
 
-## Looped Transformers Solve SAT
+## Simulation of SAT Solvers with Looped Transformers
 
+### DPLL procedure
+
+- unit propagation
+- backtracking
+
+Each building block is implemented with the TF architecture, by defining the weight matrices (Query, Key, Value for attention and Weight/Bias for feed-forward network).
+
+### 
+
+- conflict-driven clause learnin
+
+read memory
+subtract memory
+write memory
+conditional branching
+error correction
 
 ## Experimental Results
 
@@ -33,3 +49,4 @@ python main.py --all_layers --n_layer 1 --n_recur 32 --n_head 4 --epochs 200 --e
 - https://github.com/dselsam/neurosat
 - https://github.com/zshi0616/iccad_SATformer
 - https://github.com/ryanzhangfan/NeuroSAT
+- https://github.com/niklasso/minisat
